@@ -1,0 +1,26 @@
+Package: tnelections2019
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Author: Mohamed hsin BENNOUR
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 2.10)
+Import:
+  dplyr,
+  tidyr,
+  stringr,
+  magrittr,
+  janitor,
+  readr,
+  readxl
+Suggests:
+  tidyverse,
+  janitor,
+  readxl
+RoxygenNote: 7.1.2
