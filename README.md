@@ -2,6 +2,8 @@
 
 An R package that contains the data for the 2019 Tunisian general election and can compute the results given the threshold provided.
 
+You can read more about the rational and motivation for this little package in [here](https://bennour.tn/project/elections_remake/)
+
 ## How to install 
 
 simply paste the following code in your R console :
