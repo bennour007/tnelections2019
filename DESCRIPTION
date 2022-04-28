@@ -1,11 +1,10 @@
 Package: tnelections2019
 Type: Package
-Title: What the Package Does (Title Case)
+Title: A package for Computing Tunisian elections results
 Version: 0.1.0
 Author: Mohamed hsin BENNOUR
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Maintainer: Mohamed hsin BENNOUR <hsin.bennour@gmail.com>
+Description: This package is used for mainly 2 purposes, sharing data openly about the 2019 election and allow the user to see the changes in the results given the change in the threshold
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
@@ -18,7 +17,8 @@ Import:
   magrittr,
   janitor,
   readr,
-  readxl
+  readxl,
+  tibble
 Suggests:
   tidyverse,
   janitor,

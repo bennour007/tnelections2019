@@ -9,7 +9,7 @@ seats <- read_csv(file = 'data-raw/seats.csv')
 
 
 
-data_clean <- data %>%
+data_clean <- votes %>%
   clean_names() %>%
   mutate_if(is.double, ~coalesce(.,0))
 
@@ -25,7 +25,8 @@ votesandseats <- data_clean %>%
   rename('state'='name_fr') %>%
   left_join(seats, by = 'state') %>%
   mutate(party = str_replace_all(party, '_',' '),
-         party = str_to_upper(party))
+         party = str_to_upper(party)) %>%
+  as_tibble()
 
 
 
